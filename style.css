@@ -1,0 +1,104 @@
+body{
+    color:#635032;
+}
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #635032;
+}
+
+#navbar li {
+  float: left;
+  padding-left: 20%;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+  background-color: #363027;
+}
+
+#header img{
+    position: relative;
+    padding: 0px;
+    padding-left: 10px;
+    height: 200px;
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+h2{
+    color: #635032;
+    text-align: center;
+
+}
+h3{
+    text-align: center;
+}
+#article-form {
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#article-form label {
+  display: block;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+#article-form input[type="text"],
+#article-form textarea {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#submit-button {
+  display: block;
+  background-color: #635032;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Style the article list */
+#article-list {
+  margin: 20px 0;
+}
+
+article {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+article h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin: 5px 0;
+}
+
+article p:first-child {
+  font-style: italic;
+}
